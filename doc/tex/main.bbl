@@ -1,0 +1,840 @@
+\begin{thebibliography}{111}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\url{#1}\endgroup}\fi
+\providecommand{\bibinfo}[2]{#2}
+
+\bibitem[{Agrawal et~al.(2016)Agrawal, Fu, and Menzies}]{agrawal16}
+\bibinfo{author}{A.~Agrawal}, \bibinfo{author}{W.~Fu},
+  \bibinfo{author}{T.~Menzies}, \bibinfo{title}{What is Wrong with Topic
+  Modeling? (and How to Fix it Using Search-based {SE)}},
+  \bibinfo{journal}{CoRR} \bibinfo{volume}{abs/1608.08176},
+  \urlprefix\url{http://arxiv.org/abs/1608.08176}.
+
+\bibitem[{Agrawal and Menzies(2018)}]{agrawal18}
+\bibinfo{author}{A.~Agrawal}, \bibinfo{author}{T.~Menzies}, \bibinfo{title}{Is
+  ``better data" better than ``better data miners"? On the benefits of tuning
+  {SMOTE} for defect prediction}, in: \bibinfo{booktitle}{Proceedings of the
+  40th International Conference on Software Engineering},
+  \bibinfo{organization}{ACM}, \bibinfo{pages}{1050--1061},
+  \bibinfo{year}{2018}.
+
+\bibitem[{Agrawal et~al.(2017)Agrawal, Rahman, Krishna, Sobran, and
+  Menzies}]{amritSeip18b}
+\bibinfo{author}{A.~Agrawal}, \bibinfo{author}{A.~Rahman},
+  \bibinfo{author}{R.~Krishna}, \bibinfo{author}{A.~Sobran},
+  \bibinfo{author}{T.~Menzies}, \bibinfo{title}{We Don't Need Another Hero? The
+  Impact of "Heroes" on Software Development}, \bibinfo{journal}{CoRR}
+  \bibinfo{volume}{abs/1710.09055},
+  \urlprefix\url{http://arxiv.org/abs/1710.09055}.
+
+\bibitem[{Arcuri and Briand(2011)}]{Arcuri:2011}
+\bibinfo{author}{A.~Arcuri}, \bibinfo{author}{L.~Briand}, \bibinfo{title}{A
+  Practical Guide for Using Statistical Tests to Assess Randomized Algorithms
+  in Software Engineering}, in: \bibinfo{booktitle}{Proceedings of the 33rd
+  International Conference on Software Engineering}, ICSE '11,
+  \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA}, ISBN
+  \bibinfo{isbn}{978-1-4503-0445-0}, \bibinfo{pages}{1--10},
+  \doi{\bibinfo{doi}{10.1145/1985793.1985795}},
+  \urlprefix\url{http://doi.acm.org/10.1145/1985793.1985795},
+  \bibinfo{year}{2011}.
+
+\bibitem[{Beck et~al.(1999)Beck, Fowler, and Beck}]{beck1999bad}
+\bibinfo{author}{K.~Beck}, \bibinfo{author}{M.~Fowler},
+  \bibinfo{author}{G.~Beck}, \bibinfo{title}{Bad smells in code},
+  \bibinfo{journal}{Refactoring: Improving the design of existing code}
+  (\bibinfo{year}{1999}) \bibinfo{pages}{75--88}.
+
+\bibitem[{Begel and Zimmermann(2014)}]{Bege14}
+\bibinfo{author}{A.~Begel}, \bibinfo{author}{T.~Zimmermann},
+  \bibinfo{title}{Analyze this! 145 questions for data scientists in software
+  engineering}, in: \bibinfo{booktitle}{Proceedings of the 36th ACM
+  International Conference on Software Engineering},
+  \bibinfo{organization}{ACM}, \bibinfo{pages}{12--23}, \bibinfo{year}{2014}.
+
+\bibitem[{Bender and Lange(2001)}]{Bend01}
+\bibinfo{author}{R.~Bender}, \bibinfo{author}{S.~Lange},
+  \bibinfo{title}{Adjusting for multiple testing—when and how?},
+  \bibinfo{journal}{Journal of Clinical Epidemiology}
+  \bibinfo{volume}{54}~(\bibinfo{number}{4}) (\bibinfo{year}{2001})
+  \bibinfo{pages}{343--349}.
+
+\bibitem[{Benjamini and Yekutieli(2001)}]{Benj01}
+\bibinfo{author}{Y.~Benjamini}, \bibinfo{author}{D.~Yekutieli},
+  \bibinfo{title}{The Control of the False Discovery Rate in Multiple Testing
+  under Dependency}, \bibinfo{journal}{The Annals of Statistics}
+  \bibinfo{volume}{29}~(\bibinfo{number}{4}) (\bibinfo{year}{2001})
+  \bibinfo{pages}{1165--1188}.
+
+\bibitem[{Bergstra and Bengio(2012)}]{bergstra2012random}
+\bibinfo{author}{J.~Bergstra}, \bibinfo{author}{Y.~Bengio},
+  \bibinfo{title}{Random search for hyper-parameter optimization},
+  \bibinfo{journal}{Journal of Machine Learning Research}
+  \bibinfo{volume}{13}~(\bibinfo{number}{Feb}) (\bibinfo{year}{2012})
+  \bibinfo{pages}{281--305}.
+
+\bibitem[{Blair and Higgins(1985)}]{Blai85}
+\bibinfo{author}{C.~Blair}, \bibinfo{author}{J.~Higgins},
+  \bibinfo{title}{Comparison of the power of the paired samples t test to that
+  of Wilcoxon's signed-ranks test under various population shapes.},
+  \bibinfo{journal}{Psychological Bulletin}
+  \bibinfo{volume}{97}~(\bibinfo{number}{1}) (\bibinfo{year}{1985})
+  \bibinfo{pages}{119--128}.
+
+\bibitem[{Booth and O’Rourke(1997)}]{booth1997value}
+\bibinfo{author}{A.~Booth}, \bibinfo{author}{A.~O’Rourke},
+  \bibinfo{title}{The value of structured abstracts in information retrieval
+  from MEDLINE}, \bibinfo{journal}{Health libraries review}
+  \bibinfo{volume}{14}~(\bibinfo{number}{3}) (\bibinfo{year}{1997})
+  \bibinfo{pages}{157--166}.
+
+\bibitem[{Borenstein et~al.(2009)Borenstein, Hedges, Higgins, and
+  Rothstein}]{Bore09}
+\bibinfo{author}{M.~Borenstein}, \bibinfo{author}{L.~Hedges},
+  \bibinfo{author}{J.~Higgins}, \bibinfo{author}{H.~Rothstein},
+  \bibinfo{title}{Introduction to Meta-Analysis}, \bibinfo{publisher}{Wiley},
+  \bibinfo{address}{Chichester, West Sussex, UK}, \bibinfo{year}{2009}.
+
+\bibitem[{Bosu and MacDonell(2013)}]{Bosu13}
+\bibinfo{author}{M.~Bosu}, \bibinfo{author}{S.~MacDonell}, \bibinfo{title}{Data
+  quality in empirical software engineering: a targeted review}, in:
+  \bibinfo{booktitle}{Proceedings of the 17th International Conference on
+  Evaluation and Assessment in Software Engineering},
+  \bibinfo{organization}{ACM}, \bibinfo{pages}{171--176}, \bibinfo{year}{2013}.
+
+\bibitem[{Budgen et~al.(2011)Budgen, Burn, and Kitchenham}]{Budg11}
+\bibinfo{author}{D.~Budgen}, \bibinfo{author}{A.~Burn},
+  \bibinfo{author}{B.~Kitchenham}, \bibinfo{title}{Reporting computing projects
+  through structured abstracts: a quasi-experiment},
+  \bibinfo{journal}{Empirical Software Engineering}
+  \bibinfo{volume}{16}~(\bibinfo{number}{2}) (\bibinfo{year}{2011})
+  \bibinfo{pages}{244--277}.
+
+\bibitem[{Button et~al.(2013)Button, Ioannidis, Mokrysz, Nosek, Flint,
+  Robinson, and Munaf{\`o}}]{Butt13}
+\bibinfo{author}{K.~Button}, \bibinfo{author}{J.~Ioannidis},
+  \bibinfo{author}{C.~Mokrysz}, \bibinfo{author}{B.~Nosek},
+  \bibinfo{author}{J.~Flint}, \bibinfo{author}{E.~Robinson},
+  \bibinfo{author}{M.~Munaf{\`o}}, \bibinfo{title}{Power failure: why small
+  sample size undermines the reliability of neuroscience},
+  \bibinfo{journal}{Nature Reviews Neuroscience}
+  \bibinfo{volume}{14}~(\bibinfo{number}{5}) (\bibinfo{year}{2013})
+  \bibinfo{pages}{365}.
+
+\bibitem[{Carpenter and Bithell(2000)}]{Carp00}
+\bibinfo{author}{J.~Carpenter}, \bibinfo{author}{J.~Bithell},
+  \bibinfo{title}{Bootstrap confidence intervals: when, which, what? A
+  practical guide for medical statisticians}, \bibinfo{journal}{Statistics in
+  Medicine} \bibinfo{volume}{19}~(\bibinfo{number}{9}) (\bibinfo{year}{2000})
+  \bibinfo{pages}{1141--1164}.
+
+\bibitem[{Carver(1993)}]{carver93}
+\bibinfo{author}{R.~P. Carver}, \bibinfo{title}{The case against statistical
+  significance testing, revisited}, \bibinfo{journal}{The Journal of
+  Experimental Education} \bibinfo{volume}{61}~(\bibinfo{number}{4})
+  (\bibinfo{year}{1993}) \bibinfo{pages}{287--292}.
+
+\bibitem[{Cawley and Talbot(2010)}]{Cawl10}
+\bibinfo{author}{G.~Cawley}, \bibinfo{author}{N.~Talbot}, \bibinfo{title}{On
+  over-fitting in model selection and subsequent selection bias in performance
+  evaluation}, \bibinfo{journal}{Journal of Machine Learning Research}
+  \bibinfo{volume}{11}~(\bibinfo{number}{7}) (\bibinfo{year}{2010})
+  \bibinfo{pages}{2079--2107}.
+
+\bibitem[{Chen et~al.(2018)Chen, Nair, Krishna, and Menzies}]{chen2018}
+\bibinfo{author}{J.~Chen}, \bibinfo{author}{V.~Nair},
+  \bibinfo{author}{R.~Krishna}, \bibinfo{author}{T.~Menzies}, \bibinfo{title}{"
+  Sampling" as a Baseline Optimizer for Search-based Software Engineering},
+  \bibinfo{journal}{IEEE Transactions on Software Engineering} .
+
+\bibitem[{Chen et~al.(2005)Chen, Menzies, Port, and Boehm}]{chen2005}
+\bibinfo{author}{Z.~Chen}, \bibinfo{author}{T.~Menzies},
+  \bibinfo{author}{D.~Port}, \bibinfo{author}{D.~Boehm},
+  \bibinfo{title}{Finding the right data for software cost modeling},
+  \bibinfo{journal}{IEEE software} \bibinfo{volume}{22}~(\bibinfo{number}{6})
+  (\bibinfo{year}{2005}) \bibinfo{pages}{38--46}.
+
+\bibitem[{Cohen(1988)}]{Cohe88}
+\bibinfo{author}{J.~Cohen}, \bibinfo{title}{Statistical Power Analysis for the
+  Behavioral Sciences}, \bibinfo{publisher}{Lawrence Earlbaum Associates},
+  \bibinfo{address}{Hillsdale, NJ}, \bibinfo{edition}{2nd} edn.,
+  \bibinfo{year}{1988}.
+
+\bibitem[{Cohen(1992)}]{Cohe92}
+\bibinfo{author}{J.~Cohen}, \bibinfo{title}{A power primer},
+  \bibinfo{journal}{Pyschological Bulletin}
+  \bibinfo{volume}{112}~(\bibinfo{number}{1}) (\bibinfo{year}{1992})
+  \bibinfo{pages}{155--159}.
+
+\bibitem[{Colquhoun(2014)}]{Colq14}
+\bibinfo{author}{D.~Colquhoun}, \bibinfo{title}{An investigation of the false
+  discovery rate and the misinterpretation of p-values},
+  \bibinfo{journal}{Royal Society Open Science}
+  \bibinfo{volume}{1}~(\bibinfo{number}{140216}).
+
+\bibitem[{Courtney and Gustafson(1993)}]{Gust93}
+\bibinfo{author}{R.~Courtney}, \bibinfo{author}{D.~Gustafson},
+  \bibinfo{title}{Shotgun correlations in software measures},
+  \bibinfo{journal}{Software Engineering Journal}
+  \bibinfo{volume}{8}~(\bibinfo{number}{1}) (\bibinfo{year}{1993})
+  \bibinfo{pages}{5--13}.
+
+\bibitem[{Cruzes and Dyb{\aa}(2011)}]{cruzes2011research}
+\bibinfo{author}{D.~S. Cruzes}, \bibinfo{author}{T.~Dyb{\aa}},
+  \bibinfo{title}{Research synthesis in software engineering: A tertiary
+  study}, \bibinfo{journal}{Information and Software Technology}
+  \bibinfo{volume}{53}~(\bibinfo{number}{5}) (\bibinfo{year}{2011})
+  \bibinfo{pages}{440--455}.
+
+\bibitem[{De~Veaux and Hand(2005)}]{DeVe05}
+\bibinfo{author}{R.~De~Veaux}, \bibinfo{author}{D.~Hand}, \bibinfo{title}{How
+  to Lie with Bad Data}, \bibinfo{journal}{Statistical Science}
+  \bibinfo{volume}{20}~(\bibinfo{number}{3}) (\bibinfo{year}{2005})
+  \bibinfo{pages}{231–--238}.
+
+\bibitem[{Deb and Jain(2014)}]{deb14}
+\bibinfo{author}{K.~Deb}, \bibinfo{author}{H.~Jain}, \bibinfo{title}{An
+  evolutionary many-objective optimization algorithm using
+  reference-point-based nondominated sorting approach, part I: Solving problems
+  with box constraints.}, \bibinfo{journal}{IEEE Trans. Evolutionary
+  Computation} \bibinfo{volume}{18}~(\bibinfo{number}{4})
+  (\bibinfo{year}{2014}) \bibinfo{pages}{577--601}.
+
+\bibitem[{Devanbu et~al.(2016)Devanbu, Zimmermann, and Bird}]{Deva16}
+\bibinfo{author}{P.~Devanbu}, \bibinfo{author}{T.~Zimmermann},
+  \bibinfo{author}{C.~Bird}, \bibinfo{title}{Belief \& evidence in empirical
+  software engineering}, in: \bibinfo{booktitle}{IEEE/ACM 38th International
+  Conference on Software Engineering (ICSE)}, \bibinfo{organization}{IEEE},
+  \bibinfo{pages}{108--119}, \bibinfo{year}{2016}.
+
+\bibitem[{Dyb{\aa} and Dings{\o}yr(2008)}]{Dyba08}
+\bibinfo{author}{T.~Dyb{\aa}}, \bibinfo{author}{T.~Dings{\o}yr},
+  \bibinfo{title}{Strength of evidence in systematic reviews in software
+  engineering}, in: \bibinfo{booktitle}{Proceedings of the 2nd ACM-IEEE
+  international Symposium on Empirical Software Engineering and Measurement},
+  \bibinfo{organization}{ACM}, \bibinfo{pages}{178--187}, \bibinfo{year}{2008}.
+
+\bibitem[{Dyb{\aa} et~al.(2006)Dyb{\aa}, Kampenes, and Sj{\o}berg}]{Dyba06}
+\bibinfo{author}{T.~Dyb{\aa}}, \bibinfo{author}{V.~Kampenes},
+  \bibinfo{author}{D.~Sj{\o}berg}, \bibinfo{title}{A systematic review of
+  statistical power in software engineering experiments},
+  \bibinfo{journal}{Information and Software Technology}
+  \bibinfo{volume}{48}~(\bibinfo{number}{8}) (\bibinfo{year}{2006})
+  \bibinfo{pages}{745--755}.
+
+\bibitem[{Earp and Trafimow(2015)}]{Earp15}
+\bibinfo{author}{B.~Earp}, \bibinfo{author}{D.~Trafimow},
+  \bibinfo{title}{Replication, falsification, and the crisis of confidence in
+  social psychology}, \bibinfo{journal}{Frontiers in Psychology}
+  \bibinfo{volume}{6} (\bibinfo{year}{2015}) \bibinfo{pages}{621--6322}.
+
+\bibitem[{Efron and Tibshirani(1993)}]{efron93}
+\bibinfo{author}{B.~Efron}, \bibinfo{author}{R.~J. Tibshirani},
+  \bibinfo{title}{An Introduction to the Bootstrap}, Mono. Stat. Appl. Probab.,
+  \bibinfo{publisher}{Chapman and Hall}, \bibinfo{address}{London},
+  \bibinfo{year}{1993}.
+
+\bibitem[{Ellis(2010)}]{Elli10}
+\bibinfo{author}{P.~Ellis}, \bibinfo{title}{The Essential Guide to Effect
+  Sizes: Statistical Power, Meta-Analysis, and the Interpretation of Research
+  Results}, \bibinfo{publisher}{Cambridge University Press},
+  \bibinfo{year}{2010}.
+
+\bibitem[{Erceg-Hurn and Mirosevich(2008)}]{Erce08}
+\bibinfo{author}{D.~Erceg-Hurn}, \bibinfo{author}{V.~Mirosevich},
+  \bibinfo{title}{Modern robust statistical methods: an easy way to maximize
+  the accuracy and power of your research.}, \bibinfo{journal}{American
+  Psychologist} \bibinfo{volume}{63}~(\bibinfo{number}{7})
+  (\bibinfo{year}{2008}) \bibinfo{pages}{591--601}.
+
+\bibitem[{Fu and Menzies(2017{\natexlab{a}})}]{fu2017easy}
+\bibinfo{author}{W.~Fu}, \bibinfo{author}{T.~Menzies}, \bibinfo{title}{Easy
+  over hard: A case study on deep learning}, in:
+  \bibinfo{booktitle}{Proceedings of the 2017 11th Joint Meeting on Foundations
+  of Software Engineering}, \bibinfo{organization}{ACM},
+  \bibinfo{pages}{49--60}, \bibinfo{year}{2017}{\natexlab{a}}.
+
+\bibitem[{Fu and Menzies(2017{\natexlab{b}})}]{fu2017}
+\bibinfo{author}{W.~Fu}, \bibinfo{author}{T.~Menzies},
+  \bibinfo{title}{Revisiting unsupervised learning for defect prediction}, in:
+  \bibinfo{booktitle}{Proceedings of the 2017 11th Joint Meeting on Foundations
+  of Software Engineering}, \bibinfo{organization}{ACM},
+  \bibinfo{pages}{72--83}, \bibinfo{year}{2017}{\natexlab{b}}.
+
+\bibitem[{Fu et~al.(2016{\natexlab{a}})Fu, Menzies, and Shen}]{fu2016}
+\bibinfo{author}{W.~Fu}, \bibinfo{author}{T.~Menzies},
+  \bibinfo{author}{X.~Shen}, \bibinfo{title}{Tuning for Software Analytics},
+  \bibinfo{journal}{Inf. Softw. Technol.}
+  \bibinfo{volume}{76}~(\bibinfo{number}{C})
+  (\bibinfo{year}{2016}{\natexlab{a}}) \bibinfo{pages}{135--146}, ISSN
+  \bibinfo{issn}{0950-5849}, \doi{\bibinfo{doi}{10.1016/j.infsof.2016.04.017}}.
+
+\bibitem[{Fu et~al.(2016{\natexlab{b}})Fu, Nair, and Menzies}]{Fu16}
+\bibinfo{author}{W.~Fu}, \bibinfo{author}{V.~Nair},
+  \bibinfo{author}{T.~Menzies}, \bibinfo{title}{Why is Differential Evolution
+  Better than Grid Search for Tuning Defect Predictors?},
+  \bibinfo{journal}{CoRR} \bibinfo{volume}{abs/1609.02613},
+  \urlprefix\url{http://arxiv.org/abs/1609.02613}.
+
+\bibitem[{Gelman et~al.(2013)Gelman, Carlin, Stern, Dunson, Vehtari, and
+  Rubin}]{Gelm13}
+\bibinfo{author}{A.~Gelman}, \bibinfo{author}{J.~Carlin},
+  \bibinfo{author}{H.~Stern}, \bibinfo{author}{D.~Dunson},
+  \bibinfo{author}{A.~Vehtari}, \bibinfo{author}{D.~Rubin},
+  \bibinfo{title}{Bayesian data analysis}, \bibinfo{publisher}{CRC},
+  \bibinfo{edition}{3rd} edn., \bibinfo{year}{2013}.
+
+\bibitem[{Ghotra et~al.(2015)Ghotra, McIntosh, and Hassan}]{ghotra2015}
+\bibinfo{author}{B.~Ghotra}, \bibinfo{author}{S.~McIntosh},
+  \bibinfo{author}{A.~E. Hassan}, \bibinfo{title}{Revisiting the impact of
+  classification techniques on the performance of defect prediction models},
+  in: \bibinfo{booktitle}{Proceedings of the 37th International Conference on
+  Software Engineering-Volume 1}, \bibinfo{organization}{IEEE Press},
+  \bibinfo{pages}{789--800}, \bibinfo{year}{2015}.
+
+\bibitem[{Goodman et~al.(2016)Goodman, Fanelli, and Ioannidis}]{Good16}
+\bibinfo{author}{S.~Goodman}, \bibinfo{author}{D.~Fanelli},
+  \bibinfo{author}{J.~Ioannidis}, \bibinfo{title}{What does research
+  reproducibility mean?}, \bibinfo{journal}{Science Translational Medicine}
+  \bibinfo{volume}{8}~(\bibinfo{number}{341}) (\bibinfo{year}{2016})
+  \bibinfo{pages}{341ps12--341ps12}.
+
+\bibitem[{Hall and Holmes(2003)}]{hall2003benchmarking}
+\bibinfo{author}{M.~A. Hall}, \bibinfo{author}{G.~Holmes},
+  \bibinfo{title}{Benchmarking attribute selection techniques for discrete
+  class data mining}, \bibinfo{journal}{IEEE Transactions on Knowledge and Data
+  Engineering} \bibinfo{volume}{15}~(\bibinfo{number}{6})
+  (\bibinfo{year}{2003}) \bibinfo{pages}{1437--1447}.
+
+\bibitem[{Hawkins(2004)}]{Hawk04}
+\bibinfo{author}{D.~Hawkins}, \bibinfo{title}{The problem of overfitting},
+  \bibinfo{journal}{Journal of Chemical Information and Computer Sciences}
+  \bibinfo{volume}{44}~(\bibinfo{number}{1}) (\bibinfo{year}{2004})
+  \bibinfo{pages}{1--12}.
+
+\bibitem[{Healy(2018)}]{Heal18}
+\bibinfo{author}{K.~Healy}, \bibinfo{title}{Data Visualization: A Practical
+  Introduction}, \bibinfo{publisher}{Princeton University Press},
+  \bibinfo{year}{2018}.
+
+\bibitem[{Herodotou et~al.(2011)Herodotou, Lim, Luo, Borisov, Dong, Cetin, and
+  Babu}]{herodotou2011starfish}
+\bibinfo{author}{H.~Herodotou}, \bibinfo{author}{H.~Lim},
+  \bibinfo{author}{G.~Luo}, \bibinfo{author}{N.~Borisov},
+  \bibinfo{author}{L.~Dong}, \bibinfo{author}{F.~B. Cetin},
+  \bibinfo{author}{S.~Babu}, \bibinfo{title}{Starfish: A Self-tuning System for
+  Big Data Analytics}, in: \bibinfo{booktitle}{Cidr},
+  vol.~\bibinfo{volume}{11}, \bibinfo{pages}{261--272}, \bibinfo{year}{2011}.
+
+\bibitem[{Hoaglin et~al.(1983)Hoaglin, Mosteller, and Tukey}]{Hoag83}
+\bibinfo{author}{D.~Hoaglin}, \bibinfo{author}{F.~Mosteller},
+  \bibinfo{author}{J.~Tukey}, \bibinfo{title}{Understanding Robust and
+  Exploratory Data Analysis}, \bibinfo{publisher}{John Wiley and Sons},
+  \bibinfo{year}{1983}.
+
+\bibitem[{Holte(1993)}]{Holte1993}
+\bibinfo{author}{R.~Holte}, \bibinfo{title}{Very Simple Classification Rules
+  Perform Well on Most Commonly Used Datasets}, \bibinfo{journal}{Machine
+  Learning} \bibinfo{volume}{11}~(\bibinfo{number}{1}) (\bibinfo{year}{1993})
+  \bibinfo{pages}{63--90}, ISSN \bibinfo{issn}{1573-0565},
+  \doi{\bibinfo{doi}{10.1023/A:1022631118932}},
+  \urlprefix\url{https://doi.org/10.1023/A:1022631118932}.
+
+\bibitem[{Huang et~al.(2017{\natexlab{b}})Huang, Ritchie, Brozynska, and
+  Inouye}]{Huan17}
+\bibinfo{author}{Q.~Huang}, \bibinfo{author}{S.~Ritchie},
+  \bibinfo{author}{M.~Brozynska}, \bibinfo{author}{M.~Inouye},
+  \bibinfo{title}{Power, false discovery rate and Winner's Curse in {eQTL}
+  studies}, \bibinfo{journal}{bioRxiv}  (\bibinfo{year}{2017}{\natexlab{b}})
+  \bibinfo{pages}{209171}.
+
+\bibitem[{Huang et~al.(2017{\natexlab{a}})Huang, Xia, and
+  Lo}]{huang2017supervised}
+\bibinfo{author}{Q.~Huang}, \bibinfo{author}{X.~Xia}, \bibinfo{author}{D.~Lo},
+  \bibinfo{title}{Supervised vs unsupervised models: A holistic look at
+  effort-aware just-in-time defect prediction}, in: \bibinfo{booktitle}{2017
+  IEEE International Conference on Software Maintenance and Evolution (ICSME)},
+  \bibinfo{organization}{IEEE}, \bibinfo{pages}{159--170},
+  \bibinfo{year}{2017}{\natexlab{a}}.
+
+\bibitem[{Ioannidis(2005)}]{Ioan05}
+\bibinfo{author}{J.~Ioannidis}, \bibinfo{title}{{Why most published research
+  findings are false}}, \bibinfo{journal}{PLoS Medicine}
+  \bibinfo{volume}{2}~(\bibinfo{number}{8}) (\bibinfo{year}{2005})
+  \bibinfo{pages}{e124--6}.
+
+\bibitem[{Ivarsson and Gorschek(2011)}]{Ivar11}
+\bibinfo{author}{M.~Ivarsson}, \bibinfo{author}{T.~Gorschek}, \bibinfo{title}{A
+  method for evaluating rigor and industrial relevance of technology
+  evaluations}, \bibinfo{journal}{Empirical Software Engineering}
+  \bibinfo{volume}{16}~(\bibinfo{number}{3}) (\bibinfo{year}{2011})
+  \bibinfo{pages}{365--395}.
+
+\bibitem[{J{\o}rgensen et~al.(2016)J{\o}rgensen, Dyb{\aa}, Liest{\o}l, and
+  Sj{\o}berg}]{Jorg16}
+\bibinfo{author}{M.~J{\o}rgensen}, \bibinfo{author}{T.~Dyb{\aa}},
+  \bibinfo{author}{K.~Liest{\o}l}, \bibinfo{author}{D.~Sj{\o}berg},
+  \bibinfo{title}{Incorrect Results in Software Engineering Experiments: How to
+  Improve Research Practices}, \bibinfo{journal}{J.\ of Syst.\ \& Softw.}
+  \bibinfo{volume}{116} (\bibinfo{year}{2016}) \bibinfo{pages}{133--145}.
+
+\bibitem[{Kampenes et~al.(2007)Kampenes, Dyb{\aa}, Hannay, and
+  Sj{\o}berg}]{Kamp07}
+\bibinfo{author}{V.~Kampenes}, \bibinfo{author}{T.~Dyb{\aa}},
+  \bibinfo{author}{J.~Hannay}, \bibinfo{author}{D.~Sj{\o}berg},
+  \bibinfo{title}{A systematic review of effect size in software engineering
+  experiments}, \bibinfo{journal}{Information and Software Technology}
+  \bibinfo{volume}{49}~(\bibinfo{number}{11-12}) (\bibinfo{year}{2007})
+  \bibinfo{pages}{1073--1086}.
+
+\bibitem[{Kitchenham et~al.(2015)Kitchenham, Budgen, and Brereton}]{Kitc15}
+\bibinfo{author}{B.~Kitchenham}, \bibinfo{author}{D.~Budgen},
+  \bibinfo{author}{P.~Brereton}, \bibinfo{title}{Evidence-Based Software
+  engineering and systematic reviews}, \bibinfo{publisher}{CRC Press},
+  \bibinfo{address}{Boca Raton, Fl, US}, \bibinfo{year}{2015}.
+
+\bibitem[{Kitchenham et~al.(2004)Kitchenham, Dyb{\aa}, and
+  J{\o}rgensen}]{Kitc04}
+\bibinfo{author}{B.~Kitchenham}, \bibinfo{author}{T.~Dyb{\aa}},
+  \bibinfo{author}{M.~J{\o}rgensen}, \bibinfo{title}{Evidence-based Software
+  Engineering}, in: \bibinfo{booktitle}{26th IEEE International Conference on
+  Software Engineering (ICSE 2004)}, \bibinfo{publisher}{IEEE Computer
+  Society}, \bibinfo{pages}{273--281}, \bibinfo{year}{2004}.
+
+\bibitem[{Kitchenham et~al.(2017)Kitchenham, Madeyski, Budgen, Keung, Brereton,
+  Charters, Gibbs, and Pohthong}]{Kitc17}
+\bibinfo{author}{B.~Kitchenham}, \bibinfo{author}{L.~Madeyski},
+  \bibinfo{author}{D.~Budgen}, \bibinfo{author}{J.~Keung},
+  \bibinfo{author}{P.~Brereton}, \bibinfo{author}{S.~Charters},
+  \bibinfo{author}{S.~Gibbs}, \bibinfo{author}{A.~Pohthong},
+  \bibinfo{title}{Robust statistical methods for empirical software
+  engineering}, \bibinfo{journal}{Empirical Software Engineering}
+  \bibinfo{volume}{22}~(\bibinfo{number}{2}) (\bibinfo{year}{2017})
+  \bibinfo{pages}{579--630}.
+
+\bibitem[{Kitchenham et~al.(2002)Kitchenham, Pfleeger, Pickard, Jones, Hoaglin,
+  El~Emam, and Rosenberg}]{Kitc02}
+\bibinfo{author}{B.~Kitchenham}, \bibinfo{author}{S.~Pfleeger},
+  \bibinfo{author}{L.~Pickard}, \bibinfo{author}{P.~Jones},
+  \bibinfo{author}{D.~Hoaglin}, \bibinfo{author}{K.~El~Emam},
+  \bibinfo{author}{J.~Rosenberg}, \bibinfo{title}{Preliminary guidelines for
+  empirical research in software engineering}, \bibinfo{journal}{IEEE
+  Transactions on Software Engineering}
+  \bibinfo{volume}{28}~(\bibinfo{number}{8}) (\bibinfo{year}{2002})
+  \bibinfo{pages}{721--734}.
+
+\bibitem[{Kitchenham et~al.(2008)Kitchenham, Brereton, Owen, Butcher, and
+  Jefferies}]{4460893}
+\bibinfo{author}{B.~A. Kitchenham}, \bibinfo{author}{O.~P. Brereton},
+  \bibinfo{author}{S.~Owen}, \bibinfo{author}{J.~Butcher},
+  \bibinfo{author}{C.~Jefferies}, \bibinfo{title}{Length and readability of
+  structured software engineering abstracts}, \bibinfo{journal}{IET Software}
+  \bibinfo{volume}{2}~(\bibinfo{number}{1}) (\bibinfo{year}{2008})
+  \bibinfo{pages}{37--45}, ISSN \bibinfo{issn}{1751-8806},
+  \doi{\bibinfo{doi}{10.1049/iet-sen:20070044}}.
+
+\bibitem[{Ko et~al.(2015)Ko, Latoza, and Burnett}]{ko2015practical}
+\bibinfo{author}{A.~J. Ko}, \bibinfo{author}{T.~D. Latoza},
+  \bibinfo{author}{M.~M. Burnett}, \bibinfo{title}{A practical guide to
+  controlled experiments of software engineering tools with human
+  participants}, \bibinfo{journal}{Empirical Software Engineering}
+  \bibinfo{volume}{20}~(\bibinfo{number}{1}) (\bibinfo{year}{2015})
+  \bibinfo{pages}{110--141}.
+
+\bibitem[{Krishna et~al.(2017)Krishna, Agrawal, Rahman, Sobran, and
+  Menzies}]{rahulSEIP}
+\bibinfo{author}{R.~Krishna}, \bibinfo{author}{A.~Agrawal},
+  \bibinfo{author}{A.~Rahman}, \bibinfo{author}{A.~Sobran},
+  \bibinfo{author}{T.~Menzies}, \bibinfo{title}{What is the Connection Between
+  Issues, Bugs, and Enhancements? (Lessons Learned from 800+ Software
+  Projects)}, \bibinfo{journal}{CoRR} \bibinfo{volume}{abs/1710.08736},
+  \urlprefix\url{http://arxiv.org/abs/1710.08736}.
+
+\bibitem[{Krishna and Menzies(2017)}]{krishna18a}
+\bibinfo{author}{R.~Krishna}, \bibinfo{author}{T.~Menzies},
+  \bibinfo{title}{Simpler Transfer Learning (Using "Bellwethers")},
+  \bibinfo{journal}{arXiv} \bibinfo{volume}{abs/1703.06218},
+  \urlprefix\url{http://arxiv.org/abs/1703.06218}.
+
+\bibitem[{Krishna et~al.(2016)Krishna, Yu, Agrawal, Dominguez, and
+  Wolf}]{Krishna2016TheP}
+\bibinfo{author}{R.~Krishna}, \bibinfo{author}{Z.~Yu},
+  \bibinfo{author}{A.~Agrawal}, \bibinfo{author}{M.~Dominguez},
+  \bibinfo{author}{D.~Wolf}, \bibinfo{title}{The 'BigSE' Project: Lessons
+  Learned from Validating Industrial Text Mining}, \bibinfo{journal}{2016
+  IEEE/ACM 2nd International Workshop on Big Data Software Engineering
+  (BIGDSE)}  (\bibinfo{year}{2016}) \bibinfo{pages}{65--71}.
+
+\bibitem[{Lakens(2017)}]{Lake17}
+\bibinfo{author}{D.~Lakens}, \bibinfo{title}{Equivalence tests: a practical
+  primer for t tests, correlations, and meta-analyses},
+  \bibinfo{journal}{Social Psychological and Personality Science}
+  \bibinfo{volume}{8}~(\bibinfo{number}{4}) (\bibinfo{year}{2017})
+  \bibinfo{pages}{355--362}.
+
+\bibitem[{Lakens and Evers(2014)}]{Lake14}
+\bibinfo{author}{D.~Lakens}, \bibinfo{author}{E.~Evers},
+  \bibinfo{title}{Sailing from the seas of chaos into the corridor of
+  stability: Practical recommendations to increase the informational value of
+  studies}, \bibinfo{journal}{Perspectives on Psychological Science}
+  \bibinfo{volume}{9}~(\bibinfo{number}{3}) (\bibinfo{year}{2014})
+  \bibinfo{pages}{278--292}.
+
+\bibitem[{LeCun et~al.(2015)LeCun, Bengio, and Hinton}]{lecun2015deep}
+\bibinfo{author}{Y.~LeCun}, \bibinfo{author}{Y.~Bengio},
+  \bibinfo{author}{G.~Hinton}, \bibinfo{title}{Deep learning},
+  \bibinfo{journal}{nature} \bibinfo{volume}{521}~(\bibinfo{number}{7553})
+  (\bibinfo{year}{2015}) \bibinfo{pages}{436}.
+
+\bibitem[{Lessmann et~al.(2008)Lessmann, Baesens, Mues, and
+  Pietsch}]{Lessmann08}
+\bibinfo{author}{S.~Lessmann}, \bibinfo{author}{B.~Baesens},
+  \bibinfo{author}{C.~Mues}, \bibinfo{author}{S.~Pietsch},
+  \bibinfo{title}{Benchmarking Classification Models for Software Defect
+  Prediction: A Proposed Framework and Novel Findings}, \bibinfo{journal}{IEEE
+  Transactions on Software Engineering}
+  \bibinfo{volume}{34}~(\bibinfo{number}{4}) (\bibinfo{year}{2008})
+  \bibinfo{pages}{485--496}, ISSN \bibinfo{issn}{0098-5589},
+  \doi{\bibinfo{doi}{10.1109/TSE.2008.35}}.
+
+\bibitem[{Liebchen and Shepperd(2008)}]{Lieb08}
+\bibinfo{author}{G.~Liebchen}, \bibinfo{author}{M.~Shepperd},
+  \bibinfo{title}{Data Sets and Data Quality in Software Engineering}, in:
+  \bibinfo{booktitle}{PROMISE 2008}, \bibinfo{publisher}{ACM Press},
+  \bibinfo{year}{2008}.
+
+\bibitem[{Liebchen and Shepperd(2016)}]{Lieb16}
+\bibinfo{author}{G.~Liebchen}, \bibinfo{author}{M.~Shepperd},
+  \bibinfo{title}{Data sets and data quality in software engineering: Eight
+  years on}, in: \bibinfo{booktitle}{Proceedings of the 12th International
+  Conference on Predictive Models and Data Analytics in Software Engineering},
+  \bibinfo{organization}{ACM}, \bibinfo{year}{2016}.
+
+\bibitem[{Lo et~al.(2015)Lo, Nagappan, and Zimmermann}]{Lo2015}
+\bibinfo{author}{D.~Lo}, \bibinfo{author}{N.~Nagappan},
+  \bibinfo{author}{T.~Zimmermann}, \bibinfo{title}{How practitioners perceive
+  the relevance of software engineering research}, in:
+  \bibinfo{booktitle}{Proceedings of the 2015 10th Joint Meeting on Foundations
+  of Software Engineering}, \bibinfo{organization}{ACM},
+  \bibinfo{pages}{415--425}, \bibinfo{year}{2015}.
+
+\bibitem[{Loken and Gelman(2017)}]{Loke17}
+\bibinfo{author}{E.~Loken}, \bibinfo{author}{A.~Gelman},
+  \bibinfo{title}{Measurement error and the replication crisis},
+  \bibinfo{journal}{Science} \bibinfo{volume}{355}~(\bibinfo{number}{6325})
+  (\bibinfo{year}{2017}) \bibinfo{pages}{584--585}.
+
+\bibitem[{Madeyski and Kitchenham(2017)}]{Made17}
+\bibinfo{author}{L.~Madeyski}, \bibinfo{author}{B.~Kitchenham},
+  \bibinfo{title}{Would Wider Adoption of Reproducible Research be Beneficial
+  for Empirical Software Engineering Research?}, \bibinfo{journal}{Journal of
+  Intelligent \& Fuzzy Systems} \bibinfo{volume}{32} (\bibinfo{year}{2017})
+  \bibinfo{pages}{1509--1521}.
+
+\bibitem[{Manly(1997)}]{Manl97}
+\bibinfo{author}{B.~Manly}, \bibinfo{title}{Randomization, Bootstrap and Monte
+  Carlo Methods in Biology}, \bibinfo{publisher}{Chapman \& Hall},
+  \bibinfo{address}{London}, \bibinfo{year}{1997}.
+
+\bibitem[{Maxwell et~al.(2008)Maxwell, Kelley, and Rausch}]{Maxw08}
+\bibinfo{author}{S.~Maxwell}, \bibinfo{author}{K.~Kelley},
+  \bibinfo{author}{J.~Rausch}, \bibinfo{title}{Sample size planning for
+  statistical power and accuracy in parameter estimation},
+  \bibinfo{journal}{Annual Review of Psychology} \bibinfo{volume}{59}
+  (\bibinfo{year}{2008}) \bibinfo{pages}{537--563}.
+
+\bibitem[{McClelland(2000)}]{McCl00}
+\bibinfo{author}{G.~McClelland}, \bibinfo{title}{Increasing statistical power
+  without increasing sample size.}, \bibinfo{journal}{American Psychologist}
+  \bibinfo{volume}{55}~(\bibinfo{number}{8}) (\bibinfo{year}{2000})
+  \bibinfo{pages}{963--964}.
+
+\bibitem[{Menzies et~al.(2007)Menzies, Greenwald, and Frank}]{menzies07}
+\bibinfo{author}{T.~Menzies}, \bibinfo{author}{J.~Greenwald},
+  \bibinfo{author}{A.~Frank}, \bibinfo{title}{Data mining static code
+  attributes to learn defect predictors}, \bibinfo{journal}{IEEE Transactions
+  on Software Engineering} \bibinfo{volume}{33}~(\bibinfo{number}{1})
+  (\bibinfo{year}{2007}) \bibinfo{pages}{2--13}.
+
+\bibitem[{Menzies and Shepperd(2012)}]{menzies12}
+\bibinfo{author}{T.~Menzies}, \bibinfo{author}{M.~Shepperd},
+  \bibinfo{title}{Editorial: Special issue on repeatable results in software
+  engineering prediction}, \doi{\bibinfo{doi}{10.1007/s10664-011-9193-5}},
+  \bibinfo{year}{2012}.
+
+\bibitem[{Mittas and Angelis(2013)}]{mittas2013ranking}
+\bibinfo{author}{N.~Mittas}, \bibinfo{author}{L.~Angelis},
+  \bibinfo{title}{Ranking and clustering software cost estimation models
+  through a multiple comparisons algorithm}, \bibinfo{journal}{IEEE
+  Transactions on Software Engineering}
+  \bibinfo{volume}{39}~(\bibinfo{number}{4}) (\bibinfo{year}{2013})
+  \bibinfo{pages}{537--551}.
+
+\bibitem[{Munaf{\`o} et~al.(2017)Munaf{\`o}, Nosek, Bishop, Button, Chambers,
+  du~Sert, Simonsohn, Wagenmakers, Ware, and Ioannidis}]{Muna17}
+\bibinfo{author}{M.~Munaf{\`o}}, \bibinfo{author}{B.~Nosek},
+  \bibinfo{author}{D.~Bishop}, \bibinfo{author}{K.~Button},
+  \bibinfo{author}{C.~Chambers}, \bibinfo{author}{N.~du~Sert},
+  \bibinfo{author}{U.~Simonsohn}, \bibinfo{author}{E.~Wagenmakers},
+  \bibinfo{author}{J.~Ware}, \bibinfo{author}{J.~Ioannidis}, \bibinfo{title}{A
+  manifesto for reproducible science}, \bibinfo{journal}{Nature Human
+  Behaviour} \bibinfo{volume}{1} (\bibinfo{year}{2017}) \bibinfo{pages}{0021}.
+
+\bibitem[{Myatt and Johnson(2009)}]{Mya09}
+\bibinfo{author}{G.~Myatt}, \bibinfo{author}{W.~Johnson},
+  \bibinfo{title}{Making sense of data II: A practical guide to data
+  visualization, advanced data mining methods, and applications},
+  \bibinfo{publisher}{John Wiley \& Sons}, \bibinfo{year}{2009}.
+
+\bibitem[{Nair et~al.(2018)Nair, Agrawal, Chen, Fu, Mathew, Menzies, Minku,
+  Wagner, and Yu}]{nair2018data}
+\bibinfo{author}{V.~Nair}, \bibinfo{author}{A.~Agrawal},
+  \bibinfo{author}{J.~Chen}, \bibinfo{author}{W.~Fu},
+  \bibinfo{author}{G.~Mathew}, \bibinfo{author}{T.~Menzies},
+  \bibinfo{author}{L.~Minku}, \bibinfo{author}{M.~Wagner},
+  \bibinfo{author}{Z.~Yu}, \bibinfo{title}{Data-Driven Search-based Software
+  Engineering}, in: \bibinfo{booktitle}{MSR'18}, \bibinfo{year}{2018}.
+
+\bibitem[{Nickerson(1998)}]{Nick98}
+\bibinfo{author}{R.~Nickerson}, \bibinfo{title}{Confirmation bias: A ubiquitous
+  phenomenon in many guises.}, \bibinfo{journal}{Review of General Psychology}
+  \bibinfo{volume}{2}~(\bibinfo{number}{2}) (\bibinfo{year}{1998})
+  \bibinfo{pages}{175--220}.
+
+\bibitem[{Open Science~Collaboration(2015)}]{Open15}
+\bibinfo{author}{.~Open Science~Collaboration}, \bibinfo{title}{Estimating the
+  reproducibility of psychological science}, \bibinfo{journal}{Science}
+  \bibinfo{volume}{349}~(\bibinfo{number}{6251}) (\bibinfo{year}{2015})
+  \bibinfo{pages}{aac4716--3}.
+
+\bibitem[{Petersen et~al.(2015)Petersen, Vakkalanka, and
+  Kuzniarz}]{petersen2015guidelines}
+\bibinfo{author}{K.~Petersen}, \bibinfo{author}{S.~Vakkalanka},
+  \bibinfo{author}{L.~Kuzniarz}, \bibinfo{title}{Guidelines for conducting
+  systematic mapping studies in software engineering: An update},
+  \bibinfo{journal}{Information and Software Technology} \bibinfo{volume}{64}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{1--18}.
+
+\bibitem[{Rosli et~al.(2013)Rosli, Tempero, and Luxton-Reilly}]{Rosl13}
+\bibinfo{author}{M.~Rosli}, \bibinfo{author}{E.~Tempero},
+  \bibinfo{author}{A.~Luxton-Reilly}, \bibinfo{title}{Can we trust our results?
+  a mapping study on data quality}, in: \bibinfo{booktitle}{20th IEEE
+  Asia-Pacific Software Engineering Conference (APSEC'13)},
+  \bibinfo{pages}{116--123}, \bibinfo{year}{2013}.
+
+\bibitem[{Runeson and H{\"o}st(2009)}]{runeson2009guidelines}
+\bibinfo{author}{P.~Runeson}, \bibinfo{author}{M.~H{\"o}st},
+  \bibinfo{title}{Guidelines for conducting and reporting case study research
+  in software engineering}, \bibinfo{journal}{Empirical Software Engineering}
+  \bibinfo{volume}{2}~(\bibinfo{number}{14}) (\bibinfo{year}{2009})
+  \bibinfo{pages}{131--164}.
+
+\bibitem[{Saltelli et~al.(2000)Saltelli, Tarantola, and Campolongo}]{Salt00}
+\bibinfo{author}{A.~Saltelli}, \bibinfo{author}{S.~Tarantola},
+  \bibinfo{author}{F.~Campolongo}, \bibinfo{title}{Sensitivity Analysis as an
+  Ingredient of Modeling}, \bibinfo{journal}{Statistical Science}
+  \bibinfo{volume}{15}~(\bibinfo{number}{4}) (\bibinfo{year}{2000})
+  \bibinfo{pages}{377--395}.
+
+\bibitem[{Sarkar et~al.(2015)Sarkar, Guo, Siegmund, Apel, and
+  Czarnecki}]{sarkar2015cost}
+\bibinfo{author}{A.~Sarkar}, \bibinfo{author}{J.~Guo},
+  \bibinfo{author}{N.~Siegmund}, \bibinfo{author}{S.~Apel},
+  \bibinfo{author}{K.~Czarnecki}, \bibinfo{title}{Cost-efficient sampling for
+  performance prediction of configurable systems (t)}, in:
+  \bibinfo{booktitle}{Automated Software Engineering (ASE), 2015 30th IEEE/ACM
+  International Conference on}, \bibinfo{organization}{IEEE},
+  \bibinfo{pages}{342--352}, \bibinfo{year}{2015}.
+
+\bibitem[{Sayyad and Ammar(2013)}]{sayyad2013}
+\bibinfo{author}{A.~S. Sayyad}, \bibinfo{author}{H.~Ammar},
+  \bibinfo{title}{Pareto-optimal search-based software engineering (POSBSE): A
+  literature survey}, in: \bibinfo{booktitle}{2nd International Workshop on
+  Realizing Artificial Intelligence Synergies in Software Engineering (RAISE)},
+  \bibinfo{organization}{IEEE}, \bibinfo{pages}{21--27}, \bibinfo{year}{2013}.
+
+\bibitem[{Schmidt and Hunter(2014)}]{Schm14}
+\bibinfo{author}{F.~Schmidt}, \bibinfo{author}{J.~Hunter},
+  \bibinfo{title}{Methods of Meta-Analysis: Correcting Error and Bias in
+  Research Findings}, \bibinfo{publisher}{Sage Publications},
+  \bibinfo{edition}{3rd} edn., \bibinfo{year}{2014}.
+
+\bibitem[{Shadish et~al.(2002)Shadish, Cook, and Campbell}]{Shad02}
+\bibinfo{author}{W.~Shadish}, \bibinfo{author}{T.~Cook},
+  \bibinfo{author}{D.~Campbell}, \bibinfo{title}{Experimental and
+  quasi-experimental designs for generalized causal inference},
+  \bibinfo{publisher}{Houghton Mifflin}, \bibinfo{address}{Boston},
+  \bibinfo{year}{2002}.
+
+\bibitem[{Shaw(2003)}]{Shaw03}
+\bibinfo{author}{M.~Shaw}, \bibinfo{title}{Writing good software engineering
+  research papers}, in: \bibinfo{booktitle}{25th IEEE International Conference
+  on Software Engineering}, \bibinfo{organization}{IEEE Computer Society},
+  \bibinfo{pages}{726--736}, \bibinfo{year}{2003}.
+
+\bibitem[{Shepperd et~al.(2014)Shepperd, Bowes, and Hall}]{Shep14}
+\bibinfo{author}{M.~Shepperd}, \bibinfo{author}{D.~Bowes},
+  \bibinfo{author}{T.~Hall}, \bibinfo{title}{Researcher bias: The use of
+  machine learning in software defect prediction}, \bibinfo{journal}{IEEE
+  Transactions on Software Engineering}
+  \bibinfo{volume}{40}~(\bibinfo{number}{6}) (\bibinfo{year}{2014})
+  \bibinfo{pages}{603--616}.
+
+\bibitem[{Shepperd et~al.(2013)Shepperd, Song, Sun, and Mair}]{shepperd13}
+\bibinfo{author}{M.~Shepperd}, \bibinfo{author}{Q.~Song},
+  \bibinfo{author}{Z.~Sun}, \bibinfo{author}{C.~Mair}, \bibinfo{title}{Data
+  quality: Some comments on the {NASA} software defect datasets},
+  \bibinfo{journal}{IEEE Transactions on Software Engineering}
+  \bibinfo{volume}{39}~(\bibinfo{number}{9}) (\bibinfo{year}{2013})
+  \bibinfo{pages}{1208--1215}.
+
+\bibitem[{Silberzahn et~al.(2017)Silberzahn, Uhlmann, Martin, Anselmi, Aust,
+  Awtrey, Bahn{\'\i}k, Bai, Bannard, Bonnier et~al.}]{Silb15}
+\bibinfo{author}{R.~Silberzahn}, \bibinfo{author}{E.~Uhlmann},
+  \bibinfo{author}{D.~Martin}, \bibinfo{author}{P.~Anselmi},
+  \bibinfo{author}{F.~Aust}, \bibinfo{author}{E.~Awtrey},
+  \bibinfo{author}{{\v{S}}.~Bahn{\'\i}k}, \bibinfo{author}{F.~Bai},
+  \bibinfo{author}{C.~Bannard}, \bibinfo{author}{E.~Bonnier}, et~al.,
+  \bibinfo{title}{Many analysts, one dataset: Making transparent how variations
+  in analytical choices affect results} \urlprefix\url{https://osf.io/j5v8f}.
+
+\bibitem[{Simmons et~al.(2011)Simmons, Nelson, and Simonsohn}]{Simm11}
+\bibinfo{author}{J.~Simmons}, \bibinfo{author}{L.~Nelson},
+  \bibinfo{author}{U.~Simonsohn}, \bibinfo{title}{False-positive psychology:
+  Undisclosed flexibility in data collection and analysis allows presenting
+  anything as significant}, \bibinfo{journal}{Psychological science}
+  \bibinfo{volume}{22}~(\bibinfo{number}{11}) (\bibinfo{year}{2011})
+  \bibinfo{pages}{1359--1366}.
+
+\bibitem[{Smaldino and McElreath(2016)}]{Smal16}
+\bibinfo{author}{P.~Smaldino}, \bibinfo{author}{R.~McElreath},
+  \bibinfo{title}{The natural selection of bad science},
+  \bibinfo{journal}{Royal Society Open Science}
+  \bibinfo{volume}{3}~(\bibinfo{number}{9}) (\bibinfo{year}{2016})
+  \bibinfo{pages}{160384}.
+
+\bibitem[{Snoek et~al.(2012)Snoek, Larochelle, and Adams}]{Snoe12}
+\bibinfo{author}{J.~Snoek}, \bibinfo{author}{H.~Larochelle},
+  \bibinfo{author}{R.~Adams}, \bibinfo{title}{Practical Bayesian Optimization
+  of Machine Learning Algorithms}, in: \bibinfo{booktitle}{Advances in Neural
+  Information Processing Systems (NIPS 2012}, \bibinfo{pages}{2951--2959},
+  \bibinfo{year}{2012}.
+
+\bibitem[{Spence and Stanley(2016)}]{Spen16}
+\bibinfo{author}{J.~Spence}, \bibinfo{author}{D.~Stanley},
+  \bibinfo{title}{Prediction Interval: What to Expect When You’re Expecting
+  … A Replication}, \bibinfo{journal}{PLoS ONE}
+  \bibinfo{volume}{11}~(\bibinfo{number}{9}) (\bibinfo{year}{2016})
+  \bibinfo{pages}{e0162874}.
+
+\bibitem[{Stol et~al.(2016)Stol, Ralph, and Fitzgerald}]{stol2016grounded}
+\bibinfo{author}{K.-J. Stol}, \bibinfo{author}{P.~Ralph},
+  \bibinfo{author}{B.~Fitzgerald}, \bibinfo{title}{Grounded theory in software
+  engineering research: a critical review and guidelines}, in:
+  \bibinfo{booktitle}{Software Engineering (ICSE), 2016 IEEE/ACM 38th
+  International Conference on}, \bibinfo{organization}{IEEE},
+  \bibinfo{pages}{120--131}, \bibinfo{year}{2016}.
+
+\bibitem[{Storn and Price(1997)}]{Storn1997}
+\bibinfo{author}{R.~Storn}, \bibinfo{author}{K.~Price},
+  \bibinfo{title}{Differential Evolution -- A Simple and Efficient Heuristic
+  for global Optimization over Continuous Spaces}, \bibinfo{journal}{Journal of
+  Global Optimization} \bibinfo{volume}{11}~(\bibinfo{number}{4})
+  (\bibinfo{year}{1997}) \bibinfo{pages}{341--359}, ISSN
+  \bibinfo{issn}{1573-2916}, \doi{\bibinfo{doi}{10.1023/A:1008202821328}},
+  \urlprefix\url{https://doi.org/10.1023/A:1008202821328}.
+
+\bibitem[{Szucs and Ioannidis(2017)}]{Szuc17}
+\bibinfo{author}{D.~Szucs}, \bibinfo{author}{J.~Ioannidis},
+  \bibinfo{title}{Empirical assessment of published effect sizes and power in
+  the recent cognitive neuroscience and psychology literature},
+  \bibinfo{journal}{PLoS Biology} \bibinfo{volume}{15}~(\bibinfo{number}{3})
+  (\bibinfo{year}{2017}) \bibinfo{pages}{e2000797}.
+
+\bibitem[{Tantithamthavorn et~al.(2016)Tantithamthavorn, McIntosh, Hassan, and
+  Matsumoto}]{tantithamthavorn2016automated}
+\bibinfo{author}{C.~Tantithamthavorn}, \bibinfo{author}{S.~McIntosh},
+  \bibinfo{author}{A.~Hassan}, \bibinfo{author}{K.~Matsumoto},
+  \bibinfo{title}{Automated parameter optimization of classification techniques
+  for defect prediction models}, in: \bibinfo{booktitle}{IEEE/ACM 38th
+  International Conference on Software Engineering (ICSE 2016)},
+  \bibinfo{organization}{IEEE}, \bibinfo{pages}{321--332},
+  \bibinfo{year}{2016}.
+
+\bibitem[{Tantithamthavorn et~al.(2018)Tantithamthavorn, McIntosh, Hassan, and
+  Matsumoto}]{tantithamthavorn2018impact}
+\bibinfo{author}{C.~Tantithamthavorn}, \bibinfo{author}{S.~McIntosh},
+  \bibinfo{author}{A.~E. Hassan}, \bibinfo{author}{K.~Matsumoto},
+  \bibinfo{title}{The Impact of Automated Parameter Optimization on Defect
+  Prediction Models}, \bibinfo{journal}{IEEE Transactions on Software
+  Engineering} .
+
+\bibitem[{Theisen et~al.(2017)Theisen, Dunaiski, Williams, and Visser}]{Thei17}
+\bibinfo{author}{C.~Theisen}, \bibinfo{author}{M.~Dunaiski},
+  \bibinfo{author}{L.~Williams}, \bibinfo{author}{W.~Visser},
+  \bibinfo{title}{Writing good software engineering research papers:
+  revisited}, in: \bibinfo{booktitle}{IEEE/ACM 39th International Conference on
+  Software Engineering Companion (ICSE-C)}, \bibinfo{organization}{IEEE},
+  \bibinfo{pages}{402--402}, \bibinfo{year}{2017}.
+
+\bibitem[{Van~Aken et~al.(2017)Van~Aken, Pavlo, Gordon, and
+  Zhang}]{van2017automatic}
+\bibinfo{author}{D.~Van~Aken}, \bibinfo{author}{A.~Pavlo},
+  \bibinfo{author}{G.~Gordon}, \bibinfo{author}{B.~Zhang},
+  \bibinfo{title}{Automatic database management system tuning through
+  large-scale machine learning}, in: \bibinfo{booktitle}{Proceedings of the
+  2017 ACM International Conference on Management of Data},
+  \bibinfo{organization}{ACM}, \bibinfo{pages}{1009--1024},
+  \bibinfo{year}{2017}.
+
+\bibitem[{Whigham et~al.(2015)Whigham, Owen, and Macdonell}]{Whig15}
+\bibinfo{author}{P.~Whigham}, \bibinfo{author}{C.~Owen},
+  \bibinfo{author}{S.~Macdonell}, \bibinfo{title}{A Baseline Model for Software
+  Effort Estimation}, \bibinfo{journal}{ACM Transactions on Software
+  Engineering and Methodology} \bibinfo{volume}{24}~(\bibinfo{number}{3}).
+
+\bibitem[{Wilcox(2012)}]{Wilc12}
+\bibinfo{author}{R.~Wilcox}, \bibinfo{title}{Introduction to Robust Estimation
+  and Hypothesis Testing}, \bibinfo{publisher}{Academic Press},
+  \bibinfo{edition}{3rd} edn., \bibinfo{year}{2012}.
+
+\bibitem[{Wohlin et~al.(2012)Wohlin, Runeson, H{\"o}st, Ohlsson, Regnell, and
+  Wessl{\'e}n}]{Wohl12}
+\bibinfo{author}{C.~Wohlin}, \bibinfo{author}{P.~Runeson},
+  \bibinfo{author}{M.~H{\"o}st}, \bibinfo{author}{M.~Ohlsson},
+  \bibinfo{author}{B.~Regnell}, \bibinfo{author}{A.~Wessl{\'e}n},
+  \bibinfo{title}{Experimentation in software engineering},
+  \bibinfo{publisher}{Springer Science \& Business Media},
+  \bibinfo{edition}{2nd} edn., \bibinfo{year}{2012}.
+
+\bibitem[{Zhang and Li(2007)}]{zhang2007moea}
+\bibinfo{author}{Q.~Zhang}, \bibinfo{author}{H.~Li}, \bibinfo{title}{MOEA/D: A
+  multiobjective evolutionary algorithm based on decomposition},
+  \bibinfo{journal}{IEEE Transactions on Evolutionary Computation}
+  \bibinfo{volume}{11}~(\bibinfo{number}{6}) (\bibinfo{year}{2007})
+  \bibinfo{pages}{712--731}.
+
+\bibitem[{Zimmerman(1998)}]{Zimm98}
+\bibinfo{author}{D.~Zimmerman}, \bibinfo{title}{Invalidation of parametric and
+  nonparametric statistical tests by concurrent violation of two assumptions},
+  \bibinfo{journal}{The Journal of Experimental Education}
+  \bibinfo{volume}{67}~(\bibinfo{number}{1}) (\bibinfo{year}{1998})
+  \bibinfo{pages}{55--68}.
+
+\bibitem[{Zimmermann et~al.(2004)Zimmermann, Weisgerber, Diehl, and
+  Zeller}]{Zimmermann04}
+\bibinfo{author}{T.~Zimmermann}, \bibinfo{author}{P.~Weisgerber},
+  \bibinfo{author}{S.~Diehl}, \bibinfo{author}{A.~Zeller},
+  \bibinfo{title}{Mining Version Histories to Guide Software Changes}, in:
+  \bibinfo{booktitle}{Proceedings of the 26th International Conference on
+  Software Engineering}, ICSE '04, \bibinfo{publisher}{IEEE Computer Society},
+  \bibinfo{address}{Washington, DC, USA}, ISBN \bibinfo{isbn}{0-7695-2163-0},
+  \bibinfo{pages}{563--572},
+  \urlprefix\url{http://dl.acm.org/citation.cfm?id=998675.999460},
+  \bibinfo{year}{2004}.
+
+\end{thebibliography}

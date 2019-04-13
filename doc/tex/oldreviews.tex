@@ -1,0 +1,272 @@
+{\bf Thank you for the opportunity to revise this draft. For substantive changes (more than a line or two), we have marked those changes \RED in the text in a red color \BLACK (and for small changes, we mark these below).
+
+We look forward to your comments on this updated draft.}
+
+\subsection*{Associate Editor Comments}
+
+
+{\em Both reviewers confirm the value of providing guidelines on performing software analytics studies. Given the potential impact of such an endeavor, the authors should look into the set of all comments and suggestions given. In particular, please address the following concerns: 
+\bi
+\item  Motivate the paper more strongly, in comparison to existing similar efforts (R1)
+\item  Argue more in terms of objectivity and evidence rather than subjective observation (R1)
+\item Provide more details of the content of Section 4.5 (R1, R2)
+\item Clarify on the meaning of using the term "validity" of studies. (R2)
+\item Consider shortening the article (R2). 
+\ei
+}
+
+{\bf Comment: Thank you for this summary of the open issues. We have addressed these as detailed below. 
+
+Regarding  your request to make this paper shorter, to be honest, this is difficult since most of the changes involve {\bf adding} material.   }
+
+\subsection*{Reviewer1}
+
+{\em 1a This paper provides guidelines on performing software analytics studies and writing software analytics papers. The guidelines are explained based on a set of ``bad smells" on software analytics papers, which should be avoided. Bad smells identified by the authors include not interesting topics, not using related work, using deprecated or suspected data, inadequate reporting, under-powered experiments, over-reliance on p-values, assumptions of normality and equal variances, not exploring stability, not tuning learners, not exploring simplicity and not justifying choice of base learner.
+
+Even though most experienced researchers in the software analytics area will be well aware of most points raised by the authors, several other less experienced researchers may not be. So, I believe that the software analytics community will benefit from this paper. }
+
+{\bf Comment: Thank you for those kind words.}
+
+
+
+{\em 
+R1b People (specially reviewers) tend to become overconfident in their knowledge of the topic when reading this type of paper, without realizing that they can't just blindly enforce the adoption of all points raised to all papers. They need to consider the context of the study that they are reviewing (or conducting), as certain points may not be applicable or may be less relevant. They also need to be able to distinguish between opinions, suggestions and important points that must be followed. Reviewers also tend to become overly strict and reject papers with very interesting ideas, just because there was one point that did not satisfy certain guidelines, despite the numeric results clearly pointing out that that point was probably not a big issue.}
+
+{\bf Comment: We agree that the dogmatic adoption of any guidelines is detrimental to the advance of any field.
+With your permission, we want to use a (slightly abridged) version of your comment in the text.
+See \S\vref{sec:reject}.}
+
+{\em In addition to the above, I have the detailed comments below:
+
+R1c:  Can the authors move their focus to evidence? E.g., X\% of papers from workshop Y were rejected with comments related to unsound analysis. It would also be important to argue on the need for this paper, given that there are already other materials such as the authors' editorial notes on conclusion instability, studies on appropriate evaluation metrics, and existing work on topics such as scott-knott, bootstrap, etc.}
+
+{\bf Comment: We are afraid not.  We have seriously considered ``raiding'' the many Easychair conference sites we have worked on for exactly the information you request. But ethical concerns have blocked us since the authors of those papers submitted assuming a certain review process. To gain permission to change the way that data is analyzed,  we would need to contact every author of every paper that was submitted to venue X. We also think we'd need to get permission from the steering committees of those venues. In the end, the logistics defeated us. 
+
+Which means that (a)~we agree with your comment but (b)~regret to say we cannot act on it.}
+
+{\em R1d "everybody does not know or apply this material" --> I find this statement a bit difficult to read. Does it mean that some people do not know, most people do not know, or no one knows or applies this material? It's better to clarify this statement.}
+
+{\bf Comment: We agree. We've shortened it to ``everybody does not know  this material''.
+}
+
+{\em R1e Section 4.2: even though it is always possible to discuss existing work, it is not always possible to perform experiments to compare a given technique against them, due to the lack of open source tools. If a technique is simple and there is no open source, it's ok to ask authors to compare against it. However, it is not ok to enforce authors to perform experiments with complex techniques for which open source tools are not available. It's important to comment on this, so that reviewers don't start rejecting work due to the lack of comparison against those techniques. }
+
+{\bf Comment: Good point.  With your permission, we want to use a (slightly abridged) version of your comment in the text.
+See \S\vref{noreprod}.
+}
+
+{\em R1f  1f Section 4.4, structured abstracts: I am of the opinion that a good writer does not necessarily need to use a structured abstract. He/she would be able to convey the ideas very clearly without labelling them. Was the existing work on the benefits of structured abstracts really conclusive on their usefulness?}
+
+{\bf Comment: Good point-- you are quite correct to highlight a claim we did not adequately defend.  We have added an additional two studies suggesting the merits of structured abstracts~\cite{4460893,booth1997value}.}
+
+{\em R1g Section 4.5: if the reader needs guidance such as some of the simple points mentioned in other sections of this paper, this section is likely to be too heavy for him/her to understand in its current format. And yet, this is a very interesting section with important information. This section should be expanded and explained in more detail. For instance, people who have been adopting stat tests would normally be very familiar with alpha, but not really with beta. How to set beta?}
+
+{\bf Comment: We have slightly extended this section and added more references for the interested reader.  There is also now a paragraph that commences ``So what should $\beta$ be set to? However, we are worried that a fuller exposition would considerably add to the length of the paper but are happy to be guided by the editor on this point.
+}
+
+{\em R1h PS: Type I error is not defined when it is first mentioned in this section. }
+
+{\bf Comment: Thank you.  Definition added.
+}
+
+% {\em R1i: Section 4.5, effect size: non-parametric effect size has the "advantage" of being non-parametric. However, it may not reflect the "magnitude" of improvements as wished by practitioners. By magnitude here, I mean that practitioners may be interested in getting an improvement of 20\% in the accuracy. Can the authors provide a discussion on that?}
+
+% {\bf Comment: Martin XXX  \RED This puzzles me.  I think it's the final paragraph of what was S4.6 after your text on Scott-Knott.  My instinct is simply to move the whole paragraph to the section on visualisation. \BLACK
+
+% In terms of the comment yes we can add a sentence about choosing effect sizes that are meaningful to the problem owner.  I need to think where best to insert this discussion.
+% }
+
+{\em R1i: Section 4.5, under-powered studies due to small sample: explain why it is extremely probable that the effect is a false positive. }
+
+{\bf Comment: Although the explanation is a little technical the reviewer is correct to point out it is important.  A FN is added and also an additional reference.}
+
+
+{\em R1j:  Section 4.6: could trimming lead to any negative consequence?}
+
+{\bf Comment: Not usually, see the response to the example given in R1k. We don't think this paper is the best place to give a detailed exposition on robust methods but point to the Kitchenham et al~ 2017 paper and the Wilcox book.
+}
+
+{\em R1k:  A related issue is the use of medians instead of averages. Consider the following two illustrative examples of classification errors:
+
+Group 1: 
+
+0.1, 0.2, 0.3, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4
+
+(median = 0.4)
+(IQR = 0.125)
+(average = 0.34)
+
+Group 2:
+
+0.7, 0.6, 0.5, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4
+
+(median = 0.4)
+(IQR = 0.125)
+(average = 0.46)
+
+Group 1 should be better than group 2, but median and IQR would overlook that. In some cases, I found that the use of medians and IQR can hide negative aspects of certain approaches. }
+
+{\bf Comment: Thanks for an interesting example, but a median is the most extreme form of trimming possible ie 50\%.  It's customary to do a 10 or 20\% trim.  This yields pairs of trimmed means of (0.3625, 0.4375) and (3.833, 4.167) respectively so the difference isn't obscured.  However visually inspecting the data would also be a wise precaution and your point that we should avoid becoming rule-driven robots when doing analysis is well made!  We also add a new smell concerning data visualisation which also addresses this point.Your point is well made. Any single summary statistic can focus on one aspect of the data and miss others. Hence, the more general point here is we stress that it is important to {\em visualize} the data before applying statistics. We have added more text to that point in (as said in \S\vref{sec:viz})}
+
+{\em And yet, you risk being lynched by certain reviewers for relying on averages.}
+
+{\bf Comment: Indeed, as you say, ``you risk being lynched by certain reviewers for relying on averages''.  That said, one of us (Menzies) reports that in the last 5 years of publishing he has mostly reported medians and never gotten push back on medians-vs-means from reviewers. In the end it's about what's appropriate and our new smell of no data visualisation.   
+}
+
+{\em R1l:  Section 4.8, tuning based on search-based algorithms: the quality of the results obtained by search-based algorithms may vary depending on the learner being optimized. This leads to a threat related to the use of search-based algorithms for tuning when comparing different learners. Conclusions depend on the assumption that the search-based algorithm would be able to tune different learners equally well. This threat can be very serious.}
+
+{\bf Comment: Your point is well taken. What we can say here is that the available evidence is that SBSE
+tuning can dramatically improve classifier performance. These improvements can be so large that it
+would be ill-advised to ignore them. Yet as you say, other optimizers might produce better tuners and better results. FYI- we do not think this is a threat to validity but an exciting area of research. 
+
+A full discussion on this point is a paper in its own right
+(we know this since Menzies has just submitted that paper to EMSE journal: \newline see https://arxiv.org/pdf/1812.01550.pdf).  
+}
+
+
+{\em R1m: Section 4.9, reference to Figure 2 of [32]: could the authors include an illustrative figure in this paper itself? This can be very useful for readers.}
+
+{\bf Comment: Great idea. We found  a very simple example of this (using a different reference)--  please see Figure~\ref{fig:irqs}.}
+
+
+{\em R1n:  Section 4.9, 90\% sample method: clarify what that is.}
+
+{\bf Comment:   We have changed to
+``select
+ 90\% of the data, at random''.}
+
+
+{\em R1o: - Section 4.10, "we should stop fussing about minor differences between data mining results since, in the grand scheme of things, the overall structure of the SE data only supports a few conclusions". This is a too strong statement that seems to be based on a single study on software defect prediction. Do all SE data really support only a few conclusions? I also do not agree with this statement.}
+
+{\bf Comment:   You are quite correct. That statement is not wise in the context
+of this paper. At your advice, we have removed that text (see start of \S\vref{sec:simple}).
+}
+
+{\em R1p:  Section 4.11, choosing techniques to compare against: I'm a bit hesitant on this suggestion. Would people need to run all existing approaches themselves to cluster them and then pick the ones from the top group to compare against the novel proposed approach? If that's the case, they would anyway have to run all existing methods, and could just cluster all of them plus the proposed approach together. Of course, this would lead to the need for a huge amount of experiments, which can be infeasible depending on the study.}
+
+{\bf Comment: (4.11 is now 4.12). We agree that comparing a new method against 
+everything would lead to a impractically large amount of experimentation.
+This is why this paper offers section rules for reducing the larger space of 
+all algorithms to something much less (this is why we  mention
+Table~9 of~\cite{ghotra2015}; and offer the you+two+next+dumb method).
+
+Also, we note in other work we have been exploring the net effort required
+to explore the space of existing methods. We have found many methods to reduce
+that overall load (see~\cite{Fu16,chen2018,AgrawalM17}-- with much success
+(which in this context, means working through the space of methods
+very quickly without having to sample everything).
+}
+
+
+
+\subsection*{Replies to Reviewer2}
+
+{\em 
+I like the overall motivation for this paper: "we raised concerns about the numerous occasions where Study 1 concluded X yet Study 2 concluded ¬X. The inability to resolve these seeming contradictions leaves us at an impasse." I believe the paper will make a contribution towards the stated aim of improving methodological aspects of conducting studies in software analytics.
+
+I list my suggested improvements to the paper below.}
+
+{\bf Comment: Thank your kind words. }
+
+{\em 
+R2a: I miss, at least a brief, discussion on what you mean by validity. You write "'valid' study" in the abstract, that is, valid is in quotes, but then you make it too easy for yourself because it's then unclear what you mean; is it just a sort of valid study, a quasi-valid study, or do you mean valid study? }
+
+{\bf Comment:  Definitions are provided in the introduction when the terms are introduced.  The remark on quasi-valid is fair so the abstract has been slightly re-worded to ``what contributes to validity".
+}
+
+{\em
+
+R2b: Section 4.1: You state that if there is no debate in a certain area, research articles should motivate to such a debate, "For example, one could inspect the current literature and report a gap in the research that requires investigation."). That's fine, but you should stress that even though one finds a gap in the literature it requires a solid motivation for why this gap requires investigation. Far too many systematic literature reviews in software engineering concludes that since there is a gap, that gap requires investigation, without further motivation. It could well be that the area is not interesting, which is the title of this subsection.
+
+}
+
+{\bf Comment: We agree a gap is of itself not necessarily interesting.  The qualification ``Of course, research gaps need to be interesting (see Bad Smell #1)." is added in Section 4.2. }
+
+{\em
+R2c:
+Section 4.2:
+Regarding the problem that "The literature review contains no or almost no articles less than ten years old", I certainly agree, but I believe it's worthwhile to mention that old articles could still be relevant. It's not the case that an article is necessarily poor because it's old. Often old articles survive just because they are good. On the other hand, a few old articles are much cited simply because they for some reason started to become much cited, and then people continue citing them because everybody else does. That's of course a practice that we would like to see stopped. }
+
+{\bf Comment: Agreed.  A qualification ``Naturally older papers can be hugely important but the absence of any recent contribution would generally be surprising." is added to this section.}
+
+{\em
+R2d: Section 4.4. Inadequate Reporting
+Regarding "Consider adding a list of contributions to the introduction", I disagree that this is a good practice. The principle contributions should be clear from the abstract, which should then motivate the reader. The motivation in the introduction should also make the readers interested. If the readers after that are very curious, they can easily jump to the results, discussion or conclusion sections. Articles with contributions in the intro often become verbose and repetitious. BTW, I can't see that you state you follow this recommendation yourself :-). 
+}
+ {\bf  Your point is well made. We have dropped that recommendation.}
+
+{\em
+R2e: 
+Section 4.5
+The problem stated is: "Small effect sizes and little or no underlying theory" but you don't discuss theory at all in this section.
+I certainly agree with the problem of absence of an underlying theory, but how does that lead to over-estimation of effect sizes? And how does "Analyse power in advance. Be wary of searching for small effect sizes, avoid Harking and p-hacking. Report effect sizes and confidence limits" remedy lack of underlying theory? I believe lack of underlying or explaining theory should be a separate smell in itself. }
+
+{\bf Comment: Thank you.  You raise some important points here.  \\
+Lack of theory means high false discovery rates and the strong likelihood, (although not certainty), that a true effect will be small because we are just trawling through data rather than have an a priori reason to expect that it exists which will tend to under-power experiments that will therefore lead to upwardly biased effect size estimates.\\
+We see lack of explaining theory as contextual, it makes software analytics studies vulnerable.  But we see generation of theory as lying beyond the scope of our article.  It's really important but would require a lot more discussion.
+However, we provide a brief rationale in the text and a FN describing similar problems in genomics. 
+}
+
+{\em
+R2f:
+You state earlier that "Studies are more data-driven than theory-driven." However, you never really discuss the problem of lack of theory in SE research. Lack of theory, among other things, relates to the problem of shotgun correlations and your smell no 6 (Over-reliance on, or abuse of, null hypothesis significance testing)", that is, spurious results. Theories should be used to explain cause-effects found statistically, see for example Sjøberg, Dag I.K.; Bergersen, Gunnar R. & Dyba, Tore (2016). Why Theory Matters, In Tim Menzies; Laurie Williams & Thomas D. Zimmermann (ed.), Perspectives on Data Science for Software Engineering.  Elsevier.  ISBN 9780128042069.  pp. 29 - 33 and Sjøberg, Dag IK, et al. "Building theories in software engineering." Guide to advanced empirical software engineering. Springer, London, 2008. 312-336. These articles discuss theories with examples from experiments with humans. You could present examples of theories in software analytics that do not involve humans.
+}
+
+{\bf Comment: Thank you for the reference and comment. Unfortunately the article (being part of a book) is behind an MK / Elsevier paywall.  MJS can't access it and at present we think quite a few European colleagues may be in a similar situation.  Therefore we use the Debvanbu et al. paper on Belief \& Evidence instead and also an early paper by Gustafson et al.  Clearly a great deal could be said about the relationship of theory and SE, however we want to keep the paper reasonably focused.\\
+We add a comment on shotgun correlations in what is now Section 4.7 on p<0.05 and a more general remark in the Introduction ``However, absence of theory can lead to challenges.  In particular, the lack of strong prior beliefs may make it difficult to choose between or evaluate potentially millions of possibilities \cite{Gust93,Deva16}".}
+
+{\em
+R2g:
+Furthermore, you write: "In addition, experimental design can improve power, for example by measuring within participant rather than between participant variance [66]." But you state that you do not consider experiments with humans. It would be better to use an example that use the kind of elements that you think of in your experiments. (I suppose a "participant" is a human.)
+}
+
+{\bf Comment: Thanks.  We were thinking repeated measures design or similar.  We now use a more neutral term of experimental unit.}
+
+{\em
+R2h:
+Section 4.7
+The main problem with using nonparametric tests if the data is (close to) normal, is less power than when using a parametric test. You mention that point very briefly. I miss a further discussion on how much the loss of power actually is (the problem of low power is much discussed elsewhere in your paper). I've heard that using a nonparametric test corresponds to throwing away 10\% of the observation, that is, if you have approx. 10\% more observations, you will have the same power. However, I've never seen such a statement in writing, and the size of the lack of power certainly depends on many aspects. Here is an article that makes a comparison in a specific context: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2743502/.
+}
+
+{\bf Comment: Thanks (and for the reference). This is part of a bigger discussion.  Since non-parametric tests are based on ranks you are right to put out the sometimes considerable loss of power.  This is in part the rationale for robust statistics eg trimmed measures which tend to be superior and sometimes outperform classic parametric methods.  However, it must be stressed that parametric tests \textbf{also} make assumptions regarding homogeneity of the variances.  And while it is widely believed that classic tests are only vulnerable for small samples this turns out not be the case (see \cite{Erce08,Wilc98}). \\
+However, we're more strongly advocating robust statistics.  To make this disctinction clearer we have rewritten the paragraph in Section 4.7\\
+``Since SE data sets can be highly skewed, heavy tailed or both,   we recommend performing robust tests for statistical inference. Note that we believe they should be preferred (wherever possible), to non-parametric statistics that are based on ranks. The latter,   for example the Wilcoxon signed rank procedure can lack power and are problematic in face of many ties \cite{Blai85}.  Kitchenham et al.~\cite{Kitc17} provide useful advice in the context of software engineering and Erceg-Hurn and Mirosevich an accessible general overview \cite{Erce08}.  For an extensive and detailed treatment see \cite{Wilc12}."
+}
+
+{\em
+R2i
+Since you discuss effect size quite a lot (in Smells 5, 6, 7, and 1), you should reference "Kampenes, V. B., Dybå, T., Hannay, J. E., & Sjøberg, D. I. K. (2007). A systematic review of effect size in software engineering experiments. Information and Software Technology, 49(11-12), 1073-1086."
+Since you are concerned about validity, you should also discuss construct validity because one reason for the apparently contradicting results in software engineering (as you state in the beginning) is that people state they measure the same thing, but actually measure different things. If the measurements don't represent the concept ("thing") properly, one may get arbitrary results. It may be the case that the concepts studied are more complex in studies that involve humans, but I believe that concepts and the way they are measured are not always straightforward in software analytics either.
+}
+
+{\bf Comment: We add the Kampenes citation in the set up in Section 1 since as you point out effect size underpins a lot of our discussion.  This comment also relates to your earlier remark r2a.}
+
+{\em
+R2j: 
+Even though you stress that you will make this article succinct and brief, I still find the text relatively verbose. For example, if there is anything new in the last sentence of this paragraph, it could easily be integrated in the sentences above: "The list has been constructed by discussion and debate between the two authors. We then cross-checked the list (see Table 2) with a [typo: an] empirical study quality instrument, due to [25] that has been used when assessing article quality for inclusion within software engineering systematic reviews [49, chapter 7]. By this means we see our list addresses all four areas of quality identified by a standard quality review instrument used within empirical software engineering."
+}
+
+{\bf Comment: We have re-read (and proof checked) the entire paper in order to cut out redundancy and verbosity.  Unfortunately some of the helpful suggestions made by yourselves entail adding to the paper rather than subtracting from it.  So overall it's become slightly longer.  Sorry!  BTW we fixed the typo you mentioned.}
+
+{\em
+R2k: 
+There are many years ago since serious journals abandoned the practice of referring to "private communication". A paper that is supposed to improve reporting standards should not itself refer to such "work", which cannot be obtained or checked by the reader.
+
+}
+
+{\bf Comment: ok, Reference removed.}
+
+{\em
+R2l: 
+Typos: 
+p. 5: "how we the research community"
+p.6 Many of problems -> of the problems
+p. 8 "a article"
+p. 10: "know quality issues" -> known
+p. 18: "are from optimal" -> far from
+
+ref. 48:  "Incorrect esults"
+
+}
+
+{\bf Comment: Fixed.  Thankyou.}
